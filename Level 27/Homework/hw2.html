@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>site</title>
+    <style>
+        /* 
+         CSS წესი = სელექტორი + ფიგურულ ფრჩხილებში ჩაწერილი მახასიათებლები (property) და მნიშვნელობები (value)
+         ეს წესი სტილავს h1 და h2 თეგებს ერთდროულად
+        */
+        h1, h2 {
+            color: blue;
+            background-color: lightgray;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        /*
+         მეორე CSS წესი სტილავს ყველა <p> ელემენტს რომელიც <div>-ის შიგნითაა
+        */
+        div p {
+            color: green;
+            background-color: lightyellow;
+            font-size: 16px;
+            line-height: 1.6;
+            margin: 10px 0;
+            padding: 8px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>hello</h1>
+    <h2>2</h2>
+
+    <div>
+        <p>1</p>
+        <p>2</p>
+    </div>
+
+    <p>bye</p>
+</body>
+</html>

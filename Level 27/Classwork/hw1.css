@@ -1,0 +1,29 @@
+ p {
+    color: aliceblue;
+    background-color: black;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    border: 0cap;
+    border-radius: 0cm;
+ }
+
+ button{
+    color: green;
+    background-color: black;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    border: 0cap;
+    border-radius: 0cm;
+ }
+ h1{
+    color: blueviolet;
+    background-color: red;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    border: 0cap;
+    border-radius: 0cm;
+ }
+
