@@ -1,0 +1,14 @@
+.ul{
+    background-color: aqua;
+    max-width: 50px;
+    list-style-type: square;
+    list-style-position: inside;
+    list-style-image: url(https://cdn.discordapp.com/attachments/1369365612979159040/1389675347233996912/131-1313918_tick-mark-check-yes-correct-success-circle-icon-ok-icon_1.jpg?ex=68657b85&is=68642a05&hm=10bd614d18402afe903aa981d2c339d99c25939bd8255e052b33ed23bb967caa&);
+}
+
+.ol{
+    background-color: red;
+    max-width: 50px;
+    list-style-position: outside;
+    list-style-image: url(https://cdn.discordapp.com/attachments/1369365612979159040/1389675347233996912/131-1313918_tick-mark-check-yes-correct-success-circle-icon-ok-icon_1.jpg?ex=68657b85&is=68642a05&hm=10bd614d18402afe903aa981d2c339d99c25939bd8255e052b33ed23bb967caa&);
+}

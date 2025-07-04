@@ -1,0 +1,24 @@
+/*rgb-is red green blue */
+#red {  
+    color: rgb(255, 0, 0); 
+}
+
+#blue {
+    color: rgb(0, 0, 255); 
+}
+
+#green {
+    color: rgb(0, 128, 0); 
+}
+
+#yellow {
+    color: rgb(255, 255, 0); 
+}
+
+#purple {
+    color: rgb(128, 0, 128); 
+}
+
+#teal {
+    color: rgb(0, 128, 128); 
+}

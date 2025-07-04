@@ -1,0 +1,28 @@
+    table.table1{
+      border: 2px solid black;
+    }
+
+    table.table1 th,
+    table.table1 td{
+      border: 1px solid gray;
+      text-align: center;
+    }
+
+    table.table1 td:nth-child(2){
+      background-color: #f0f0f0;
+    }
+
+    table.table2{
+      border: 2px solid black;
+      border-collapse: collapse; 
+    }
+
+    table.table2 th,
+    table.table2 td{
+      border: 1px solid gray;
+      text-align: center;
+    }
+
+    table.table2 td:nth-child(2){
+      background-color: #f0f0f0;
+    }

@@ -1,0 +1,42 @@
+.body {
+    font-family: "Segoe UI", sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    text-align: center;
+}
+
+.header {
+    background-color: #444;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ffd700;
+}
+
+.main {
+    padding: 20px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.profile-photo {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}

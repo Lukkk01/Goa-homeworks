@@ -1,0 +1,21 @@
+    nav {
+      background-color: white;
+      font-size: larger;
+      color: black;
+    }
+
+    nav l {
+      text-decoration: none;
+      color: #333;
+      font-size: 18px;
+    }
+
+    nav l:hover {
+      color: blue;             
+      background-color: white;           
+    }
+
+    nav l:active {
+      color: red;          
+      font-weight: bold;            
+    }
