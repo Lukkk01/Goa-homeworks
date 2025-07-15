@@ -1,0 +1,26 @@
+/* ღილაკის სტილი */
+button {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+ }
+
+/* ღილაკის hover ეფექტი */
+button:hover {
+   background-color: darkgreen;
+}
+
+/* ფორმის სტრუქტურა */
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}

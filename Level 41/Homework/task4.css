@@ -1,0 +1,45 @@
+form {
+    background-color: lightgray;
+    padding: 20px;
+    width: 350px;
+    margin: 30px auto;
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+
+/* ტექსტური ველები და ტექსტარეა */
+input[type="text"],
+textarea {
+    border-radius: 5px;
+    border: 1px solid blue;
+    text-transform: capitalize;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+/* hover ეფექტი ტექსტურ ველებზე */
+input[type="text"]:hover {
+    background-color: #e0f0ff; /* ღია ლურჯი */
+}
+
+/* ღილაკის სტილი */
+button {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+        }
