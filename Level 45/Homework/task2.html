@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Flexbox</title>
+  <style>
+    /* Flex container */
+    #container {
+      display: flex;
+
+      /*  შეცვალე თითოეული შემდეგი თვისება ცდისთვის */
+      flex-direction: row; /* row | column | row-reverse | column-reverse */
+      justify-content: space-between; /* flex-start | flex-end | center | space-between | space-around | space-evenly */
+      align-items: center; /* flex-start | flex-end | center | stretch | baseline */
+      flex-wrap: wrap; /* nowrap | wrap | wrap-reverse */
+
+      width: 90%;
+      height: 400px;
+      margin: 30px auto;
+      background-color: #eee;
+      border: 2px solid #aaa;
+      padding: 10px;
+    }
+
+    /* Box ელემენტები */
+    .box {
+      min-width: 100px;
+      min-height: 100px;
+      margin: 10px;
+      color: white;
+      font-size: 20px;
+      text-align: center;
+      line-height: 100px;
+      font-weight: bold;
+
+      /* ყველა box-ს აქვს განსხვავებული grow / shrink */
+    }
+
+    /* ინდივიდუალური box-ების სტილები */
+    .box1 {
+      background-color: #e74c3c;
+      flex-grow: 1;
+      flex-shrink: 1;
+    }
+
+    .box2 {
+      background-color: #3498db;
+      flex-grow: 2;
+      flex-shrink: 1;
+    }
+
+    .box3 {
+      background-color: #2ecc71;
+      flex-grow: 1;
+      flex-shrink: 0;
+    }
+
+    .box4 {
+      background-color: #f39c12;
+      flex-grow: 0;
+      flex-shrink: 2;
+    }
+
+    .box5 {
+      background-color: #9b59b6;
+      flex-grow: 3;
+      flex-shrink: 1;
+    }
+  </style>
+</head>
+<body>
+
+  <h2 style="text-align:center;">Flexbox Container & Boxes</h2>
+
+  <div id="container">
+    <div class="box box1">Box 1</div>
+    <div class="box box2">Box 2</div>
+    <div class="box box3">Box 3</div>
+    <div class="box box4">Box 4</div>
+    <div class="box box5">Box 5</div>
+  </div>
+
+</body>
+</html>

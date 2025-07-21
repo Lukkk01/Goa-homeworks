@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>Flexbox Layout Example</title>
+  <style>
+    /* Flex container - მთავარი კონტეინერი */
+    .flex-container {
+      display: flex; /* Flexbox-ს ვააქტიურებთ */
+      flex-direction: row; /* მთავარი ღერძი — მარცხნიდან მარჯვნივ */
+      justify-content: space-between; /* ელემენტებს შორის სივრცე თანაბრად ნაწილდება */
+      align-items: center; /* ელემენტები განლაგდება გადამკვეთ ღერძზე ცენტრში */
+      flex-wrap: wrap; /* ელემენტებს შეუძლია გადავლა ახალ ხაზზე საჭიროების შემთხვევაში */
+      background-color: #f0f0f0;
+      padding: 20px;
+      height: 300px; /* სიმაღლე განსაზღვრულია, რომ align-items იმუშაოს */
+    }
+
+    /* Flex items - კონტეინერის შვილები */
+    .item {
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px;
+      font-size: 20px;
+      margin: 10px;
+      flex-grow: 1;   /* ელემენტი გაიზრდება დარჩენილი სივრცის მიხედვით */
+      flex-shrink: 1; /* ელემენტი შეიზღუდება საჭიროების შემთხვევაში */
+      flex-basis: 150px; /* საწყისი ზომა ელემენტისთვის */
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Flexbox Layout მაგალითი</h2>
+
+  <!-- Flex container -->
+  <div class="flex-container">
+    <!-- Flex items -->
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+  </div>
+
+    
+</body>
+</html>
+
