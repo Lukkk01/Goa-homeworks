@@ -1,0 +1,40 @@
+.divman{
+    background-color: black;
+    
+}
+
+.child1{
+    background-color: red;
+    color: gold;
+    max-width: 100px;
+    padding: 50px;
+    display: flex;
+    position: relative;
+    top: 15px;
+    right: 20px;
+    z-index: 2;
+}
+
+.child2{
+    background-color: green;
+    color: gold;
+    max-width: 100px;
+    padding: 50px;
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    z-index: 1;
+}
+
+.child3{
+    background-color: blue;
+    color: gold;
+    max-width: 100px;
+    padding: 50px;
+    display: flex;
+    position: fixed;
+    top: 20px;
+    z-index: 2;
+}
+/*z-index გვეხმარება ვიზუალურად გადავაწვეთ ელემენტები ერთმანეთს*/
