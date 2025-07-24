@@ -1,2 +1,2 @@
-"https://www.codewars.com/kata/5168bb5dfe9a00b126000018/train/python"
-# Code 5
+"https://www.codewars.com/kata/52fba66badcd10859f00097e/train/python"
+# code 5

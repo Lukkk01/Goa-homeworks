@@ -1,0 +1,13 @@
+#table1:nth-child(2) {
+    color: green;
+}
+
+td, th {
+    border: 1px solid yellow;
+}
+
+#table2 {
+    border-collapse: collapse;
+}
+
+/* ამ ორ ცხრილს შორის განსხვავება ისაა რომ პირველ ცხრილში td-ს და tr-ს თავიანთი საზღვრები აქვთ ხოლო მეორე ცხრილში ყველგან მხოლოდ ერთი საზღვარი გადის */

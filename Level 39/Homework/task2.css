@@ -1,0 +1,71 @@
+#w3:link {
+    color: blue;
+    font-size: medium;
+    text-decoration-line: none;
+}
+
+#w3:visited {
+    color:purple;
+    font-size: small;
+    text-decoration: line-through;
+}
+
+#w3:hover {
+    color: cyan;
+    font-size: large;
+    text-decoration-line: underline;
+}
+
+#w3:active {
+    color: darkblue;
+    font-size: medium;
+    text-decoration: line-through;
+}
+
+#sl:link {
+    color: red;
+    font-size: medium;
+    text-decoration-line: none;
+}
+
+#sl:visited {
+    color: orange;
+    font-size: small;
+    text-decoration-line: line-through;
+}
+
+#sl:hover {
+    color: crimson;
+    font-size: large;
+    text-decoration: underline;
+}
+
+#sl:active {
+    color: brown;
+    font-size: medium;
+    text-decoration: line-through;
+}
+
+#cc:link {
+    color: darkgreen;
+    font-size: medium;
+    text-decoration-line: none;
+}
+
+#cc:visited {
+    color: greenyellow;
+    font-size: small;
+    text-decoration: line-through;
+}
+
+#cc:hover {
+    color: green;
+    font-size: large;
+    text-decoration-line: underline;
+}
+
+#cc:active {
+    color: yellowgreen;
+    font-size: medium;
+    text-decoration-line: line-through;
+}

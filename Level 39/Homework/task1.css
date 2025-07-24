@@ -1,0 +1,35 @@
+#link1:hover {
+    color: aqua;
+    font-size: large;
+    text-decoration-line: none;
+}
+
+#link1:active {
+    color: blue;
+    font-size: small;
+    text-decoration-line: line-through;
+}
+
+#link2:hover {
+    color: cadetblue;
+    font-size: large;
+    text-decoration-line: none;
+}
+
+#link2:active {
+    color: darkgoldenrod;
+    font-size: small;
+    text-decoration: line-through;
+}
+
+#link3:hover {
+    color: darkmagenta;
+    font-size: large;
+    text-decoration-line: none;
+}
+
+#link3:active {
+    color: firebrick;
+    font-size: small;
+    text-decoration: line-through;
+}
