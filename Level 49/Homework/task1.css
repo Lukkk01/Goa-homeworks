@@ -1,0 +1,82 @@
+.maindiv{
+    background-color: white;
+    padding: 60px;
+    margin: 1px;
+}
+
+.pirvdiv{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+}
+
+.meorediv{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container1{
+    background-image: url(https://as2.ftcdn.net/jpg/01/23/82/05/1000_F_123820561_ZbwjZwvY55ADuUPG1vqf8f4r9ry9dpl2.jpg);
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    text-align: right 150px;
+    max-width: 260px;
+    text-align: center;
+    padding: 60px;
+
+}
+
+.container2{
+    background-image: url(https://media.istockphoto.com/id/1131516955/photo/absract-blurred-bokeh-architectural-urban-backdrop-of-tbilisi-georgia-real-blurred-colorful.jpg?s=612x612&w=0&k=20&c=p5uEzunIRRSmP7xbTWXDqZH73c-_pEatlzADSWIUP6E=);
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    text-align: right 150px;
+    max-width: 260px;
+    text-align: center;
+    padding: 60px;
+
+}
+
+.container3{
+    background-image: url(https://media.istockphoto.com/id/489977890/photo/times-square-nyc-blur.jpg?s=612x612&w=0&k=20&c=dXXMPquaJznTh3OZTLgSm36X1VmOLwmy272R0gTUmUA=);
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    text-align: right 150px;
+    max-width: 260px;
+    text-align: center;
+    padding: 60px;
+}
+
+.container4{
+    background-image: url(https://www.shutterstock.com/image-photo/blurred-background-silhouette-eiffel-tower-600nw-599638589.jpg);
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    max-width: 280px;
+    text-align: center;
+    padding: 70px;
+}
+
+.container5{
+    background-image: url(https://img.freepik.com/free-photo/abstract-blur-bokeh-tokyo-city-background_74190-5044.jpg);
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    max-width: 280px;
+    text-align: center;
+    padding: 60px;
+}
+
+.container6{
+    background-image: url(https://www.shutterstock.com/image-photo/blur-nighttime-cityscape-abstract-background-600nw-1858453276.jpg);
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    max-width: 280px;
+    text-align: center;
+    padding: 60px;
+}

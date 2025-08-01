@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f2f2f2;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.left {
+  flex: 1;
+  background-color: #eaeaea;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  text-align: center;
+}
+
+.left h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.left h2 span {
+  color: #6c63ff;
+  font-weight: bold;
+}
+
+.left img {
+  width: 200px;
+  width: 500px;
+}
+
+.right {
+  flex: 1;
+  background-color: #fff;
+  padding: 60px 40px;
+  position: relative;
+}
+
+.top-link {
+  text-align: right;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.top-link a {
+  color: #6c63ff;
+  text-decoration: none;
+}
+
+.signup-box {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.signup-box h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.signup-box .or {
+  margin: 0 10px;
+  color: #aaa;
+  font-weight: normal;
+}
+
+button.social {
+  border: none;
+  background-color: #eee;
+  font-weight: bold;
+  padding: 6px 12px;
+  margin-left: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.description {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+form input[type=\"text\"],
+form input[type=\"email\"],
+form input[type=\"password\"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.password-wrapper {
+  position: relative;
+}
+
+.password-wrapper .show {
+  position: absolute;
+  right: 12px;
+  top: 10px;
+  font-size: 12px;
+  color: #6c63ff;
+  cursor: pointer;
+}
+
+.strength {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 15px;
+  padding-left: 4px;
+}
+
+.strength span {
+  flex: 1;
+  height: 4px;
+  background-color: #ddd;
+  border-radius: 2px;
+}
+
+.terms {
+  font-size: 12px;
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+.create-btn {
+  width: 100%;
+  background-color: #6c63ff;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
