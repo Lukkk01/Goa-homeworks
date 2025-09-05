@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background: gray;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.layout {
+    display: grid;
+    gap: 20px;
+    max-width: 1000px;
+    width: 100%;
+    grid-template-columns: 260px 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+    "header  header   header"
+    "sidebar content1 content1"
+    "sidebar content2 content3"
+    "footer  footer   footer";
+}
+
+.header   { 
+    grid-area: header;
+    background: purple;    
+    color: white; 
+    text-align: center; 
+    padding: 30px; 
+    border: 2px solid black; 
+    border-radius: 8px; 
+}
+
+.sidebar  { 
+    grid-area: sidebar;  
+    background: teal;      
+    color: white; 
+    text-align: center; 
+    padding: 30px; 
+    border: 2px solid black; 
+    border-radius: 8px; 
+    min-height: 420px; 
+}
+
+.content1 { 
+    grid-area: content1; 
+    background: cornflowerblue; 
+    color: white; 
+    text-align: center; 
+    padding: 30px; 
+    border: 2px solid black; 
+    border-radius: 8px; 
+    min-height: 220px; 
+}
+
+.content2 { 
+    grid-area: content2;
+    background: dodgerblue;     
+    color: white; 
+    text-align: center; 
+    padding: 30px; 
+    border: 2px solid black; 
+    border-radius: 8px; 
+    min-height: 160px; 
+}
+
+.content3 { 
+    grid-area: content3; 
+    background: royalblue;      
+    color: white; 
+    text-align: center; 
+    padding: 30px; 
+    border: 2px solid black; 
+    border-radius: 8px; 
+    min-height: 160px; 
+}
+
+.footer {
+    grid-area: footer;   
+    background: purple;    
+    color: white; 
+    text-align: center; 
+    padding: 30px; 
+    border: 2px solid black; 
+    border-radius: 8px; 
+}
