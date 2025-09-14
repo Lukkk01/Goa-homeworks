@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    text-align: center;
+    font-size: large;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    justify-content: left;
+    align-items: left;
+}
+
+#box901 {
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+#camera {
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+#man img {
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black; 
+}
+
+#box901, #camera {
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+#box901 img, #camera img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-right: 20px;
+}
