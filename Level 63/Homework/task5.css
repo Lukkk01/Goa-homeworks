@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, sans-serif;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 10px gray;
+    width: 600px;
+}
+
+.left {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: white;
+    text-align: center;
+    width: 50%;
+    padding: 40px 20px;
+}
+
+.circle {
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.big {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.right {
+    background: white;
+    width: 50%;
+    padding: 40px 20px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.item.red {
+    background: hsla(0, 100%, 67%, 0.1);
+    color: hsl(0, 100%, 67%);
+}
+
+.item.yellow {
+    background: hsla(39, 100%, 56%, 0.1);
+    color: hsl(39, 100%, 56%);
+}
+
+.item.green {
+    background: hsla(166, 100%, 37%, 0.1);
+    color: hsl(166, 100%, 37%);
+}
+
+.item.blue {
+    background: hsla(234, 85%, 45%, 0.1);
+    color: hsl(234, 85%, 45%);
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: hsl(224, 30%, 27%);
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: hsl(224, 30%, 20%);
+}body {
+    font-family: Arial, sans-serif;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 10px gray;
+    width: 600px;
+}
+
+.left {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: white;
+    text-align: center;
+    width: 50%;
+    padding: 40px 20px;
+}
+
+.circle {
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.big {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.right {
+    background: white;
+    width: 50%;
+    padding: 40px 20px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.item.red {
+    background: hsla(0, 100%, 67%, 0.1);
+    color: hsl(0, 100%, 67%);
+}
+
+.item.yellow {
+    background: hsla(39, 100%, 56%, 0.1);
+    color: hsl(39, 100%, 56%);
+}
+
+.item.green {
+    background: hsla(166, 100%, 37%, 0.1);
+    color: hsl(166, 100%, 37%);
+}
+
+.item.blue {
+    background: hsla(234, 85%, 45%, 0.1);
+    color: hsl(234, 85%, 45%);
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: hsl(224, 30%, 27%);
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: hsl(224, 30%, 20%);
+}
