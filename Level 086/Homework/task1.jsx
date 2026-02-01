@@ -1,0 +1,7 @@
+function SimpleGreeting() {
+  return (<>
+    return <h1>Hello React!</h1>
+  </>)
+}
+
+export default SimpleGreeting

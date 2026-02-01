@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Changa+One:ital@0;1&family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Matangi:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=WDXL+Lubrifont+JP+N&display=swap');
+
+* {
+    font-family: 'Poppins';
+}
+
+body {
+    background: url(images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+    font-size: x-large;
+    color: white;
+    font-family: Poppins;
+}
+
+#text {
+    position: absolute;
+    left: 600px;
+    top: 450px;
+}
+
+#text p {
+    font-size: smaller;
+}
+
+form {
+    position: absolute;
+    right: 700px;
+    top: 400px;
+    color: black;
+    background-color: white;
+    padding: 50px;
+    border-radius: 15px;
+}
+
+form p {
+    font-size: small;
+    text-align: center;
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 500px;
+    padding: 5px;
+    height: 40px;
+    font-weight: 700;
+    padding-left: 15px;
+}
+
+button {
+    color: white;
+    border: none;
+    background-color: hsl(154, 59%, 51%);
+    border-radius: 5px;
+    width: 520px;
+    padding: 5px;
+    height: 60px;
+    font-size: large;
+    box-shadow: 0px 0px 2px 0px gray;
+}
+
+#button:hover {
+    background-color: darkgreen;
+}
+
+span {
+    font-weight: 700;
+}
+
+#discount {
+    position: absolute;
+    top: 290px;
+    right: 700px;
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 10px;
+    width: 620px;
+    height: 60px;
+    font-size: smaller;
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 20px;
+}

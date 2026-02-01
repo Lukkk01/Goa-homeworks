@@ -1,0 +1,13 @@
+const accounts = [
+  {
+    name: "luka",
+    balance: 1500013093852401571851255475423742357823457527257254700275775475342754237543
+  },
+  {
+    name: "deme",
+    balance: 1
+  }
+];
+
+const jsonString = JSON.stringify(accounts);
+console.log(JSON.parse(jsonString));
